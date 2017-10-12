@@ -1,0 +1,11 @@
+<h1>Create a new account</h1>
+
+<div class="form-div">
+<%= form_with model: @user, class: 'centered-form' do |f| %>
+  <%=f.label :username%>
+  <%= f.text_field :username %>
+  <%=f.label :password%>
+  <%= f.password_field :password %>
+  <%= f.submit %>
+<% end %>
+</div>
