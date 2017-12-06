@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails web app which lets you keep track of your board games.
 
-Things you may want to cover:
+You can:
 
-* Ruby version
+* Create an account in the database
 
-* System dependencies
+* Create, edit, and remove board games
 
-* Configuration
+* Add other users as your friends in order to see their board games
 
-* Database creation
+* Search for board games you or your friends own
 
-* Database initialization
+* Upload images of your board games (with proper setup)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can run the app by simply bundling the gems and then running '$ rails s' in terminal.
